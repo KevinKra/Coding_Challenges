@@ -28,3 +28,11 @@ function reverser(str) {
   }
   return word;
 }
+
+////
+
+//2.)First Factorial
+function firstFactorial(num) {
+  if (num < 0) return NaN;
+  return num > 0 ? num * firstFactorial(num - 1) : 1;
+}
